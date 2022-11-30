@@ -1,0 +1,240 @@
+*{
+margin: 0;
+}
+
+.plmun-logo{
+	margin-top: 0;
+	height: 50px;
+	display: block;
+	padding-bottom: 10px;
+}
+h5{
+	position: absolute;
+	color: white;
+	padding-top: 60px;
+
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width:100%;
+}
+
+.navitor{
+	height: 100px;
+	width: auto;
+	background: #2c3135;
+	align-items: center;
+	display: flex;
+	padding-left:3%;
+    margin:0;
+	padding-right: 4%;
+	padding-left: 5%;
+	}
+
+	.email2 input[type=text]{
+			margin-right: 35px;
+		}
+		
+.user-details .line{
+	width: auto;
+	border-bottom: 1px solid gray;
+	  box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);
+padding-bottom: 40px;
+position: relative;
+margin: 0;
+
+}
+.line .container-buttons{
+
+position: absolute;
+height: 100%;
+margin: 0;
+display: flex;
+margin-left: 30%;
+width: 70%;
+}
+.container-buttons .details{
+	margin-top:5%;
+	
+}
+.details{
+	font-family: arial;
+}
+
+.navitor a{
+	
+	text-decoration: none;
+	color: white;
+    margin: 50px;
+	width:20%;
+	margin: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 120px;
+}
+.navitor a:hover{
+	color: green;
+}
+.navitor a:active{
+	transform: scale(.95);
+}
+.fullname{
+	display: block;
+}
+
+.address .input-box{
+
+	width: 100%;
+}
+.address .details{
+margin-right: 1.5%;
+}
+.last_School .input-box{
+	width: 100%;
+}
+
+
+.navitor .search{
+		width: 100%;
+		margin-left: 20%;
+		}
+.navitor .details{
+		color: white;
+		font-size: 20px;
+
+		}
+input[type=search]{
+	width: 75%;
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: 8px 10px;
+
+}
+.navitor h3{
+	color: white;
+}
+.container{
+
+	height: auto;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+
+}
+.user-details{
+		justify-content: space-between;
+       width: auto;
+       height: 100%;
+	   margin: 10px 20px;
+	   
+}
+.user-details .input-box{
+	display: inline-block;
+	position: relative;
+	
+}
+input[type=text]{
+	width: 50%;
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: 8px 10px;
+	margin-top: 30px;
+}
+
+.input-box-username-pass{
+	display: block;
+}
+	
+.input-box-username-pass input[type=text]{
+	width: 20%;
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: 8px 10px;
+	margin-top: 30px;
+	margin-right: 10%;
+	
+}
+.buttons input[type=submit]{
+display: inline;
+margin-right: 15px;
+margin-bottom: 15px;
+border-radius: 100xp;
+border: 1px solid black;
+width: 100px;
+height: 40px;
+cursor: pointer;
+font-weight:bold
+
+}
+.buttons input[type=submit]:hover{
+	color: white;
+	background: #2c3135;
+}
+.buttons input[type=submit]:active{
+transform: scale(.95);
+}
+
+.container-buttons input[type=text]{
+		width: 10%;
+	border: none;
+	border-bottom: 1px solid gray;
+display: flex; 
+height:10%;
+margin-top: 4%;
+}
+
+	.buttons{
+		margin-top:7%;
+		margin-left:15%;
+	
+	}
+	
+.guardian1{
+	font-family: sans-sarif;
+	margin-top:20px;
+	display: flex;
+	color: white;
+	justify-content: center;
+	  	width: auto;
+	background: #1b1f22; 
+		  box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);
+}
+.guardian {
+	font-family: sans-sarif;
+	margin-top:20px;
+	display: flex;
+	color: black;
+		  padding-bottom: 15px;
+	  	width: auto;
+		  box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);
+}
+
+.ewan{
+	font-family: sans-sarif;
+	margin-top:20px;
+	margin-bottom: 20px;
+	display: flex;
+	color: white;
+	justify-content: center;
+	  	width: auto;
+	
+		  box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);
+}
+	 .table{
+	 width: 100%;
+	 height: auto;
+	 padding: 10px;
+
+	 }
+	 table{
+	 width: 100%;
+	 background: white;
+
+	 }
+	 table, td, tr{
+	 border-collapse: collapse;
+	 border: 1px solid black;
+	 }
