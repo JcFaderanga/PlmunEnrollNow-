@@ -1,0 +1,240 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+    <!-- Title Icon yung nasa taas yung logo sa mismong website sa status-->
+    <link rel="icon" href="logo_plmun.png" type = "image/x-icon" >
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="ADMISSION.css">
+    <title>PLMUN Registration</title>
+</head>
+
+<body>
+<div class="back"><!-- background image -->
+<nav class="header">
+    <div class="container"><!-- head -->
+    <a class="navbar-brand" href="#" style="color:white">PLMUN</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="log in.html" style="color:white">Login</a>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+</nav>
+
+<main class="my-form">
+    <div class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">Register Account</div>
+                        <div class="card-body">
+<form name="my-form" onsubmit="return validform()" action="form.php" method="post">
+                                <h5>SIGN IN INFORMATION</h5>
+                        
+                                <div class="form-group row">
+                                    <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+                                    <div class="col-md-6">
+                                        <input style="-webkit-text-security: square" type="text" id="password" class="form-control" name="Password" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="confirm_password" class="col-md-4 col-form-label text-md-right">Confirm Password</label>
+                                    <div class="col-md-6">
+                                        <input style="-webkit-text-security: square" type="text" id="confirm_password" class="form-control" name="password">
+                                        <input type="checkbox" onclick="myFunction()"> Show Password
+                                    </div>
+                                </div>
+                            <h5> PERSONAL INFORMATION </h5>
+                            
+                                <div class="form-group row">
+                                    <label for="first_name" class="col-md-4 col-form-label text-md-right">First Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="first_name" class="form-control" name="FirstName">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="last_name" class="col-md-4 col-form-label text-md-right">Last Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="last_name" class="form-control" name="Lastname">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="first_name" class="col-md-4 col-form-label text-md-right">Middle Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="first_name" class="form-control" name="MiddleName">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="first_name" class="col-md-4 col-form-label text-md-right">Surffix</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="first_name" class="form-control" name="Surffix">
+                                    </div>
+                                </div>
+								   <div class="form-group row">
+                                    <label for="birthDate" class="col-md-4 control-form-label text-md-right">Date of Birth</label>
+                                    <div class="col-md-6">
+                                      <input type="date" id="birthDate" class="form-control" name="BirthDate">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Gender</label>
+                                    <div class="col-md-6">
+                                        
+                                            <select name="Question" id="Question">
+                                                <optgroup label="Gender">
+                                                    <option value="Father">Male</option>
+                                                    <option value="Mother">Female</option>
+                                                    <option value="Mother">LGBT</option>
+                                                </optgroup>
+                                            </select>
+                                      
+                                   </div>
+                               </div>
+
+                                <div class="form-group row">
+                                    <label for="Address" class="col-md-4 col-form-label text-md-right">Address</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="Address" class="form-control" name="Address">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="Last_School_Attend" class="col-md-4 col-form-label text-md-right">Last School Attend</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="Last_School_Attend" class="form-control" name="Lschool">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Course</label>
+                                    <div class="col-md-6">
+                                       
+                                            <label for="cars">Choose your course: </label>
+                                            <select name="Question" id="Question">
+                                                <optgroup label="College of Arts and Sciences (CAS)">
+                                                    <option value="CAS">Bachelor of Arts in Communication</option>
+                                                    <option value="CAS">Bachelor of Arts in Political Science</option>
+                                                    <option value="CAS">Bachelor of Science in Psychology</option>
+                                                </optgroup>
+                                                <optgroup label="College of Business Administration (CBA)">
+                                                    <option value="CBA">Bachelor of Science in Business Administration</option>
+                                                    <option value="CBA">Bachelor of Science in Accountancy</option>
+                                                </optgroup>
+                                                <optgroup label="College of Criminal Justice (CCJ)">
+                                                    <option value="CCJ">Bachelor of Science in Criminology</option>
+                                                </optgroup>
+                                                <optgroup label="College of Information, Technology and Computer Studies (CITCS)">
+                                                    <option value="CITCS">Bachelor of Science in Computer Science</option>
+                                                    <option value="CITCS">Bachelor of Science in Information Technology</option>
+                                                    <option value="CITCS">Associate in Computer Technology</option>
+                                                </optgroup>
+                                                <optgroup label="College of Teacher Education">
+                                                    <option value="CTE">Bachelor of Elementary Education (BEEd)</option>
+                                                    <option value="CTE">Bachelor of Secondary Education (BSEd)</option>
+                                                </optgroup>
+                                            </select>
+                                       
+                                    </div>
+                                </div>
+
+                                <h5> CONTACT INFORMATION </h5>
+
+                                <div class="form-group row">
+                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">Email Address</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="phone_number" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="present_address" class="col-md-4 col-form-label text-md-right">Confirm Email Address</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="present_address" class="form-control">
+                                    </div>
+                                </div>
+								                               <div class="form-group row">
+                                    <label for="Contact_Number" class="col-md-4 col-form-label text-md-right">Contact Number</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="Contact_Number" class="form-control" name="ContactNo">
+                                    </div>
+                                </div>
+                                
+
+                                <h5> GUARDIAN INFORMATION </h5>
+
+                                <div class="form-group row">
+                                    <label for="Guardian_Name" class="col-md-4 col-form-label text-md-right">Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="Guardian_Name" class="form-control" name="Gname">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="Guardian_LName" class="col-md-4 col-form-label text-md-right">Last Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="Guardian_LName" class="form-control" name="GLastname">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="Contact_Number" class="col-md-4 col-form-label text-md-right">Contact Number</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="Contact_Number" placeholder="Enter contact number"class="form-control" name="Gnumber">
+                                    </div>
+                                </div>
+                                    <div class="col-md-6 offset-md-4">
+                                        <button type="submit" onclick="submit()" class="btn btn-primary">
+                     
+									   Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</div>
+<script>
+function submit(){
+
+alert('Mission Sucsessful');
+
+}
+
+</script>
+</html>
