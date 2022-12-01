@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+body{
+
+	display: flex;
+background: rgb(31,31,31);
+background: linear-gradient(90deg, rgba(31,31,31,1) 0%, rgba(27,31,34,1) 50%, rgba(27,31,34,1) 80%);
+
+}
+
+@media (min-width:576px){.container{max-width:540px}}
+@media (min-width:768px){.container{max-width:720px}}
+@media (min-width:992px){.container{max-width:960px}}
+
+.container{
+    width:100%;
+    height:100vh;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    padding: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    .header{
+width: 100%;
+height: 60px;
+position: fixed;
+background: #417505;
+display: flex;
+}
+.content{
+	width: 100%;
+	height: auto;
+
+
+}
+.tags{
+	width: 115px;
+	display:flex;
+
+	color: #1f1f1f;
+
+	}
+.details{
+
+   width: auto;
+   height: 50px;
+   padding: 10px;
+   padding-bottom: 0;
+   padding-top: 0;
+   display: flex;
+   margin: 10px;
+   align-items: center;
+
+  
+
+}
+.details input[type=text]{
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 3px;
+
+	padding: 8px 10px;
+
+	
+	background: transparent;
+	align-items: center;
+}
+input[type=text]:valid,
+input[type=text]:focus{
+		box-shadow-bottom: 0 0 2px green;
+}
+.info{
+	display: flex;
+
+    border-radius: 5px;
+	background: rgba(255,255,255);
+	height: 700px;
+}
+.laman-header{
+
+	height: 50px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);
+}
+.laman-header h5{
+	margin-left: 20px;
+	font-size: 15px;
+
+
+}
+
+/* detais */
+
+.ID{
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+	/*box-shadow: 0 5px 2px -2px rgba(0,0,0,0.1);*/
+	
+}
+.ID .tags{
+
+ width: 135px;
+}
+ .NAME{
+
+display: flex;
+
+  justify-content: space-around;
+ 
+}
+.NAME .details{
+   
+	  width: 100%;
+
+	  
+}
+.AB{
+	display: flex;
+	justify-content: space-between;
+}
+.A ,.B{
+	width: 50%;
+}
+.G{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+
+}
+.G h5{
+	font-weight: 400;
+	font-size: 25px;
+	color: rgba(0,0,0,0.75);
+
+}
